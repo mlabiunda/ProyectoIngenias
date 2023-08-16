@@ -1,0 +1,555 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+/*---------------------HEADER------------------*/
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contenedorimagen p {
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    margin: 0px;
+    padding: 0px;
+}
+
+.barra-contenedor1 {
+    margin: 10px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.barra-contenedor2 {
+    margin: 10px;
+    padding: 8px;
+    display: flex;
+    background-color: aquamarine;
+
+}
+
+.barra-contenedor2 a {
+    color: rgb(85, 119, 97);
+    text-decoration: none;
+    align-content: space-around;
+
+}
+
+.contenedorimagen {
+    text-align: center;
+}
+
+.img {
+    width: 40%;
+}
+
+
+.fa-cart-plus {
+    color: rgb(85, 119, 97)
+}
+
+.listasHeader {
+    color: rgb(85, 119, 97);
+    font-size: 12px;
+    margin: 10px;
+    display: none;
+    background-color: aquamarine;
+}
+
+.listasHeader ul li a {
+    color: rgb(85, 119, 97);
+    text-decoration: none;
+}
+
+.container-burguer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-burguer-contenedor6 {
+    background-color: rgb(85, 119, 97);
+    color: white;
+    border: 1px solid rgba(242, 236, 236, 0.962);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    margin: 5px;
+    border-radius: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.menu-burguer-contenedor6 i {
+    font-size: 25px;
+}
+
+/*---------------------INDEX-------------------*/
+/*----IndexMain---*/
+
+.presentacion {
+    /* display: inline-block;*/
+    color: rgb(85, 119, 97);
+    /*width: 25%;*/
+    /* vertical-align: top;*/
+    margin: 10px;
+    padding: 23px 20px;
+    border: 2px solid rgb(85, 119, 97);
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+    height: 170px;
+}
+
+.fa-pagelines {
+    color: rgb(85, 119, 97);
+    width: 20px;
+    height: 20px;
+    padding-bottom: 8px;
+    /* border: 2px solid rgb(85, 119, 97);
+    border-radius: 30px 20px;
+    border-color: rgb(85, 119, 97);
+    padding: 5px;*/
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+/*------------------------BLOQUE IMAGENES INDEX------------*/
+.bloquesIndex {
+    display: grid;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(85, 119, 97);
+}
+
+.enlace {
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+
+.bloque1 {
+    font-size: 15px;
+    height: 90%;
+    margin: 10px;
+    padding: 80px;
+    text-align: center;
+    background-image: url("/public/img/concientizacion.jpg");
+    background-size: cover;
+}
+
+.bloque2 {
+    font-size: 15px;
+    height: 90%;
+    margin: 10px;
+    padding: 80px;
+    text-align: center;
+    background-image: url("/public/img/recoleccionSelectiva.jpg");
+    background-size: cover;
+}
+
+.bloque3 {
+    font-size: 15px;
+    height: 90%;
+    margin: 10px;
+    padding: 80px;
+    text-align: center;
+    background-image: url("/public/img/compostaje.jpeg");
+    background-size: cover;
+}
+
+.bloque4 {
+    font-size: 15px;
+    height: 90%;
+    margin: 10px;
+    padding: 80px;
+    text-align: center;
+    background-image: url("/public/img/compostaje2.jpg");
+    background-size: cover;
+}
+
+.fa-solid {
+    padding-right: 5px;
+}
+
+.fa-house {
+    padding-bottom: 20px;
+}
+
+.bloque {
+    height: 50%;
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    color: rgb(85, 119, 97);
+    text-align: justify;
+    padding: 5px;
+    margin: 8%;
+}
+
+/*---SUSTENTABILIDAD---*/
+
+.bloqueconcientizacion {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(217, 228, 153);
+    font-size: 30px;
+    color: rgb(85, 119, 97);
+
+}
+
+.concientizacion1 h1 {
+    align-items: center;
+}
+
+.concientizacion1 {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(217, 228, 72);
+}
+
+.concientizacion1 ul li {
+    display: block;
+}
+
+.concientizacion2 {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(217, 228, 113);
+
+}
+
+.concientizacion3 {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(217, 228, 153);
+}
+
+li {
+    list-style-type: none;
+}
+
+.iralHome a {
+    font-size: 18px;
+    color: rgb(85, 119, 97);
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    align-content: center;
+
+}
+
+/*---Compostaje---*/
+.cuerpo {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+/*-----------------RECOLECCION SELECTIVA --------------*/
+
+.serviciosImagen {
+    text-align: center;
+    margin: 40px;
+}
+
+.servicios h1 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.servicios p {
+    font-size: 12px;
+}
+
+/*-------------------TIENDA----------------------------*/
+.contenedorProdutos {
+    display: grid;
+    grid-row: 40fr 40fr;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.produto__img {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 5px;
+}
+
+.producto {
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(85, 119, 97);
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(85, 119, 97);
+    text-align: center;
+}
+
+.producto__title {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.bloquetienda {
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(85, 119, 97)
+}
+
+.fa-cart-plus {
+    color: rgb(85, 119, 97);
+}
+
+/*----FOOTER---*/
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(68, 245, 140);
+    color: rgb(85, 119, 97);
+    margin: 10px;
+    padding: 5px;
+}
+
+.fa-brands {
+    padding-right: 5px;
+}
+
+.menufooter {
+    padding: 5px;
+}
+
+.menufooter3 {
+    padding: 5px;
+}
+
+/*-----------------------MEDIA QUERIES-----------------------*/
+@media (min-width: 768px) {
+    .container-burguer {
+        display: none;
+    }
+
+    .listasHeader {
+        font-size: 10px;
+        display: flex;
+        width: 97%;
+        justify-content: space-between;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .listasHeader ul {
+        display: flex;
+        width: 104%;
+        justify-content: space-around;
+    }
+
+
+    .img {
+        width: 35%;
+    }
+
+    a:hover {
+        color: rgb(90, 90, 14);
+        font-size: 16px;
+    }
+
+    /*---Main INDEX---*/
+    .contenedoresIndex {
+        display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+        justify-items: center;
+    }
+
+    .bloquesIndex {
+        display: grid;
+        /* grid-template-rows: 50% 50%;
+        grid-template-columns: 1fr 1fr;*/
+        padding: 10px;
+        justify-items: center;
+    }
+
+    .presentacion:hover {
+        background-color: rgba(242, 236, 236, 0.962);
+    }
+
+    .bloque1 {
+        width: 99%;
+        height: 90%;
+        margin: 0%;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    .bloque2 {
+        width: 99%;
+        height: 90%;
+        margin: 0%;
+    }
+
+    .bloque3 {
+        width: 99%;
+        height: 90%;
+        margin: 0%;
+    }
+
+    .bloque4 {
+        width: 99%;
+        height: 90%;
+        margin: 0%;
+    }
+
+    /*---------------sustentabilidad-----------------*/
+    .barra-contenedor2 a {
+        align-content: space-around;
+    }
+
+    .concientizacion1:focus {
+        background-color: rgb(217, 228, 1);
+    }
+
+    .concientizacion2:focus {
+        background-color: rgb(217, 228, 1);
+    }
+
+    .concientizacion3:focus {
+        background-color: rgb(217, 228, 1);
+
+    }
+
+    /*---recoleccion selectiva---*/
+
+    .servicios {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 10px;
+        justify-items: center;
+    }
+
+    /*----------Tienda----------------*/
+
+    .producto:hover {
+        background-color: rgba(242, 236, 236, 0.962);
+    }
+
+    .contenedorProdutos {
+        grid-template-columns: 50fr 50fr;
+
+    }
+
+    /*---footer---*/
+
+    footer {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    .menufooter {
+        padding: 5px;
+    }
+
+    .menufooter3 {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .img {
+        width: 25%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    a:hover {
+        font-size: 25px;
+    }
+
+    .bloquesIndex {
+        display: grid;
+        /*   grid-template-rows: 50% 50%;
+        grid-template-columns: 1fr 1fr;*/
+        padding: 10px;
+        justify-items: center;
+    }
+
+    /*--------------Tienda-------------------------*/
+    .contenedorProdutos {
+        grid-template-columns: 25fr 25fr 25fr 25fr;
+    }
+
+    /*---footer---*/
+    footer {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 100%;
+
+    }
+
+    .menufooter3 {
+        margin-top: 0px;
+    }
+
+    .derechos {
+        padding: 7px;
+    }
+}
+
+
+
+
+/*--------------------------*/
